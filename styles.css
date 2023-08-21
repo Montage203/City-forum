@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #36393f;
+    color: #ffffff;
+}
+
+.container {
+    background-color: #4A475C;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#editor {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: #2f3136;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+
+#preview {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white; /* Change to green if you prefer */
+    color: black; /* Change to white if you prefer */
+    margin-top: 10px;
+}
+
+#codeContainer {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white; /* Change to green if you prefer */
+    color: black; /* Change to white if you prefer */
+    margin-top: 10px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    overflow-x: auto;
+    display: none;
+}
+/* ... Votre code CSS actuel ... */
+
+.container {
+    background-color: #4A475C;
+    color: white;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+#editor {
+    flex: 1;
+    background-color: #2f3136;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    overflow-y: auto;
+}
+
+#preview, #codeContainer {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white; /* Change to green if you prefer */
+    color: black; /* Change to white if you prefer */
+    margin: 10px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    overflow-x: auto;
+    display: none;
+}
