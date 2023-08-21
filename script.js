@@ -41,3 +41,15 @@ function updatePreview(content) {
     preview.style.display = 'block';
     codeContainer.style.display = 'none';
 }
+
+
+const menuToggle = document.getElementById('menuToggle');
+const sidebar = document.getElementById('sidebar');
+
+menuToggle.addEventListener('click', () => {
+    if (sidebar.style.width === '250px') {
+        sidebar.style.width = '0';
+    } else {
+        sidebar.style.width = '250px';
+    }
+});
