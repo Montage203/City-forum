@@ -1,6 +1,6 @@
 tinymce.init({
     selector: '#editor',
-    height: 'calc(100% - 40px)', // To leave space for the toolbar
+    height: 'calc(50%)', // To leave space for the toolbar
     theme: 'silver',
     plugins: 'image media',
     toolbar: 'bold italic underline strikethrough | alignleft aligncenter alignright | bullist numlist | link image media | forecolor backcolor | codeButton',
